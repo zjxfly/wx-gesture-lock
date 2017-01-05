@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas canvas-id="id-gesture-lock" class="gesture-lock" bindtouchstart="onTouchStart"
+    bindtouchmove="onTouchMove" bindtouchend="onTouchEnd"></canvas>
+</view>
